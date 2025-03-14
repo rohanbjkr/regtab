@@ -14,11 +14,11 @@ This Python package provides tools for extracting regression results and formatt
 
 pip install "https://github.com/rohanbjkr/regtab/raw/refs/heads/main/regtab-0.1-py3-none-any.whl"
 
-from regtab import regtab
 
 
 ## Use 
 ```
+from regtab import regtab
 models = {'model1': model1, 'model2': model2}
 vars = ['exposurebirth', 'age', 'white', 'black', 'latinx', 'Intercept']
 var_labels = {
