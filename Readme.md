@@ -1,4 +1,4 @@
-# My Regression Package
+# regtab
 
 This Python package provides tools for extracting regression results and formatting them into a well-structured table. It helps with organizing regression coefficients, t-values (or standard errors), and other statistics such as R-squared and the number of observations. This is useful for presenting regression results in a neat format for academic papers, reports, or presentations.
 
@@ -12,10 +12,7 @@ This Python package provides tools for extracting regression results and formatt
 
 ## Installation
 
-You can install the package using `pip`:
-
-```bash
-pip install my-regression-package
+pip install "https://github.com/rohanbjkr/regtab/raw/refs/heads/main/regtab-0.1-py3-none-any.whl"
 
 ```
 
