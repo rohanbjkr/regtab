@@ -13,6 +13,7 @@ This Python package provides tools for extracting regression results and formatt
 ## Installation
 
 pip install "https://github.com/rohanbjkr/regtab/raw/refs/heads/main/regtab-0.1-py3-none-any.whl"
+from regtab import regtab
 
 ```
 
@@ -41,3 +42,5 @@ df = regtab(
 )
 
 print(df)
+
+```
